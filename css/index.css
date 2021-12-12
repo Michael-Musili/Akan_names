@@ -17,8 +17,22 @@ body {
   font-family: sans-serif;
 }
 .details{
-    background-image: url(https://thumbs.dreamstime.com/z/group-zulu-dancers-south-african-entertaining-performing-spectators-tourists-event-80720864.jpg);
+    background-image: url(https://live-production.wcms.abc-cdn.net.au/00064550a72a8bc0744f039d6a0ea61f?impolicy=wcms_crop_resize&cropH=1280&cropW=1920&xPos=0&yPos=0&width=862&height=575);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
+    padding: 70px;
+}
+.header{
+    position: absolute;
+    font-size: large;
+    padding-top: 100px;
+    background-color: grey;
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+
 }
