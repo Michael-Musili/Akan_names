@@ -36,3 +36,13 @@ body {
     
 
 }
+
+.forms{
+    padding-left: 200px;
+    padding: 50px;
+    font-size: large;
+    background-color: grey;
+    width: 400px;
+    height: 400px;
+    
+}

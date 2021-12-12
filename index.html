@@ -32,9 +32,12 @@
     </div>
     <div class="input">
         <div class="forms">
+
+        
+        <div class="bdate">
             <form>
                 <label for="date">Day</label><br>
-                <input type ="text" id="date" name="date"><br>
+                <input type="text" id="date" name="date"><br>
                 <label for="fmonth">Month:</label><br>
                 <input type="text" id="fmonth" name="fmonth"><br>
                 <label for="tyear">year:</label><br>
@@ -45,15 +48,17 @@
         <div class="gender">
             <div data-role="main" class="ui-content">
                 <form method="post" action="/action_page_post.php">
-                  <fieldset data-role="controlgroup">
-                  <legend>Choose your gender:</legend>
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" id="male" value="male" checked>
-                    <label for="female">Female</label>
-                    <input type="radio" name="gender" id="female" value="female">
-                  </fieldset>
+                    <fieldset data-role="controlgroup">
+                        <legend>Choose your gender:</legend>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="male" checked>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                    </fieldset>
                 </form>
             </div>
+
+            <input type="submit" value="Submit">
 
         </div>
         <div>
@@ -62,7 +67,7 @@
 
 
         </div>
-                
+        </div>
 
         
 
