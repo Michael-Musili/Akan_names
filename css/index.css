@@ -37,7 +37,7 @@ body {
 
 }
 
-.forms{
+#forms{
     border: 10px;
     background-color: grey;
     border-radius: 20px;
