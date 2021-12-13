@@ -28,13 +28,21 @@ body {
     font-size: large;
     padding-top: 100px;
     background-color: grey;
+    width: 1200px;
+    padding-left: 10px;
     height: 500px;
     border-radius: 10px;
     opacity: 0.8;
-    text-align: center;
     padding-bottom: 50px;
     
 
+}
+.header h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.header p{
+    text-align: center;
 }
 
 #forms{
