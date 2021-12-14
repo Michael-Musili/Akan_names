@@ -1,11 +1,9 @@
 
 function akanName () {
-    let dateOfBirth = Number(document.getElementById("year").value);
+    let dateOfBirth = Number(document.getElementById ("year").value);
     let monthOfBirth = Number(document.getElementById("month").value);
     let yearOfBirth = document.getElementById("year").value ;
     let genders = document.getElementsByName("gender");
-
-
 }
 
 var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
@@ -18,20 +16,17 @@ var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
     function monthValidator () {
       if (monthOfBirth < 1 || monthOfBirth > 12) {
         alert("invalid month");
-        return  false;
+        
       } else {
-        return true;
-      }
-    }
-     // date validation
-     function dateValidator () {
-        if (dateOfBirth < 1 || dateOfBirth > 31) {
+        alert("true")
+        
+        dateOfBirth < 1 || dateOfBirth > 31) {
           alert ("invalid date");
-            return false;
+            
         } else {
-          return true;
+          alert("true")
         }
-    }
+    };
     //gender validation
     function validate(form)
     {
