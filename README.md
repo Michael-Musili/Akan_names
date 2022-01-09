@@ -1,6 +1,5 @@
 # Akan_names
 This is a website that helps people figure out their akan names using their birth details.
-#  Delani Studio
 #### List of contributors
 The project was written by Michael Musili
 ## Description
